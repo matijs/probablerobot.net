@@ -1,0 +1,13 @@
+{{ define "main" }}
+ <h1>Latest posts</h1>
+ <ul class="toc">
+   {{ range first 10 .Pages }}
+    <li class="toc-item">
+     <time datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "02 January 2006" }}</time>
+     <h2>
+      <a href="{{ .URL }}">{{ .Title }}</a>
+     </h2>
+    </li>
+   {{ end }}
+ </ul>
+{{ end }}

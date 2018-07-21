@@ -1,0 +1,30 @@
+{{ define "title" -}}
+ {{ .Title }} — {{ .Site.Title }}
+{{- end }}
+
+{{ define "main" }}
+ <article>
+  <header>
+   <h1>{{ .Title }}</h1>
+   Published on <time datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "2 January 2006" }}</time>
+  </header>
+  {{ .Content }}
+  <footer>
+   <nav>
+    <dl>
+     {{ with .PrevInSection }}
+      <div>
+       <dt>Previous post</dt>
+       <dd><a href="{{ .Permalink }}">{{ .Title }}</a></dd>
+      </div>
+     {{ end }}
+     {{ with .NextInSection }}
+      <div>
+       <dt>Next post</dt>
+       <dd><a href="{{ .Permalink }}">{{ .Title }}</a></dd>
+      </div>
+     {{ end }}
+    </dl>
+   </nav>
+ </article>
+{{ end }}
