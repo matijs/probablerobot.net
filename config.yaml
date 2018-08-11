@@ -5,3 +5,6 @@ enableGitInfo: true
 
 pygmentsUseClasses: true
 
+permalinks:
+  post: /:year/:month/:title/
+
