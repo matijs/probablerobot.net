@@ -7,6 +7,7 @@
   <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
   <link rel="stylesheet" href="/main.css">
   <link rel="stylesheet" href="/highlight.css">
+  <link rel="canonical" href="{{ .Permalink }}">
  </head>
  <body>
   {{ block "main" . }}
