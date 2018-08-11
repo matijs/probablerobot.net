@@ -1,0 +1,7 @@
+baseURL: "https://probablerobot.net/"
+languageCode: "en-gb"
+title: "Probable Robot"
+enableGitInfo: true
+
+pygmentsUseClasses: true
+
