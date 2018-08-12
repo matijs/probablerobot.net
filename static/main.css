@@ -5,7 +5,12 @@
 }
 
 html {
-  background-color: #ff1493;
+  background-color: #ff5722;
+  background-image: linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff),
+  linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+  background-size:1em 1em;
+  background-position:0 0, .5em .5em;
+  background-attachment: fixed;
   box-sizing: border-box;
   text-rendering: optimizeSpeed;
   -webkit-text-size-adjust: 100%;
@@ -20,8 +25,8 @@ html {
 }
 
 body {
-  background-color: #fefefe;
-  color: #333;
+  background-color: #0d47a1;
+  color: #f1f1f1;
   font: 1em/1.5 Palatino, serif;
   margin: 0;
   min-height: 100vh;
@@ -35,9 +40,9 @@ h1 {
 }
 
 h2 {
-  font-size: 1.375em;
+  font-size: 1.25em;
   line-height: 1.25;
-  margin: .75em 0;
+  margin: .8em 0;
 }
 
 p {
@@ -56,10 +61,6 @@ p {
   h1 {
     font-size: 1.7778em;
   }
-
-  h2 {
-    font-size: 1.3333em;
-  }
 }
 
 @media (min-width: 40.0625em) {
@@ -70,16 +71,11 @@ p {
   h1 {
     font-size: 2.8em;
   }
-
-  h2 {
-    font-size: 1.6em;
-    margin: .625em 0;
-  }
 }
 
 article {
   margin: 0 auto 4em;
-  max-width: 48em;
+  max-width: 28em;
 }
 
 pre {
@@ -94,11 +90,17 @@ p code {
 }
 
 a {
-  color: #1e578f;
+  color: #f1f1f1;
+}
+
+a:focus {
+  outline: 1px dotted;
+  outline-offset: .125em;
 }
 
 a:hover {
-  color: #123859;
+  color: rgba(241, 241, 241, .5);
+  outline: none;
 }
 
 .toc {
