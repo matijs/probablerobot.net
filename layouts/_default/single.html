@@ -15,13 +15,13 @@
      {{ with .PrevInSection }}
       <div>
        <dt>Previous post</dt>
-       <dd><a href="{{ .Permalink }}">{{ .Title }}</a></dd>
+       <dd><a href="{{ .URL }}">{{ .Title }}</a></dd>
       </div>
      {{ end }}
      {{ with .NextInSection }}
       <div>
        <dt>Next post</dt>
-       <dd><a href="{{ .Permalink }}">{{ .Title }}</a></dd>
+       <dd><a href="{{ .URL }}">{{ .Title }}</a></dd>
       </div>
      {{ end }}
     </dl>
