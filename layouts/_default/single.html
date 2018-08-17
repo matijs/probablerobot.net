@@ -2,6 +2,10 @@
  {{ .Title }} — {{ .Site.Title }}
 {{- end }}
 
+{{ define "canonical" -}}
+ <link rel="canonical" href="{{ .Permalink }}">
+{{- end }}
+
 {{ define "main" }}
  <article>
   <header>
