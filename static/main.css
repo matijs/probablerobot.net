@@ -67,7 +67,7 @@ p {
   }
 }
 
-@media (min-width: 40.0625em) {
+@media (min-width: 60.0625em) {
   body {
     font-size: 1.25em;
   }
