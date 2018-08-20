@@ -1,18 +1,24 @@
 ---
-title: "The Hidden Attribute"
-slug: "the-hidden-attribute"
+title: "CSS and the Hidden Attribute"
+slug: "css-and-the-hidden-attribute"
 date: 2018-08-14T08:40:13+02:00
 ---
 
 The
-[`hidden`](https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute)
+[`hidden`](https://HTML.spec.whatwg.org/multipage/interaction.HTML#the-hidden-attribute)
 attribute is used to hide content that is not yet or no longer relevant.
 Modern browsers will prevent elements with a `hidden` attribute from being
-rendered by applying `display: none;` to the element.
+rendered by applying `display: none` to the element.
 
 Because of this, changing the value of the `display` property will override the
-hiding behaviour. Adding the `hidden` attribute to the element with class
-`something-flex` in the example below will do nothing.
+hiding behaviour. The `hidden` attribute on the `<div>` with class
+`something-flex` in the example below may not do what you expect.
+
+{{< highlight HTML "linenos=inline" >}}
+<div class="something-flex" hidden>
+  …
+</div>
+{{< /highlight >}}
 
 {{< highlight CSS "linenos=inline" >}}
 .something-flex {
@@ -21,11 +27,14 @@ hiding behaviour. Adding the `hidden` attribute to the element with class
 }
 {{< /highlight >}}
 
-How do we get around this issue? There are a few possible solutions.
+The user agent stylesheet would apply `display: none` to the `<div>` but this
+is overridden by setting `display: flex` in the CSS.
+
+How do we deal with this? There are a few possible solutions.
 
 ## Use `!important`
 
-The easiest solution is probably to use good ol' `!important`.
+The easiest solution is probably to use good old `!important`.
 
 {{< highlight CSS "linenos=inline" >}}
 [hidden] {
@@ -40,7 +49,7 @@ This also makes the attribute work in browsers that do not natively support it.
 If you want to avoid `!important`, another solution is to add the `[hidden]`
 attribute selector to the selector of the element that needs hiding.
 
-{{< highlight css "linenos=inline" >}}
+{{< highlight CSS "linenos=inline" >}}
 .something-flex {
   display: flex;
   …
@@ -51,7 +60,7 @@ attribute selector to the selector of the element that needs hiding.
 }
 {{< /highlight >}}
 
-This works but does not scale so well. You will have to add this extra bit of
+This works, but does not scale so well. You will have to add this extra bit of
 specificity just to be able to hide something.
 
 ## Keep it simple
@@ -59,7 +68,7 @@ specificity just to be able to hide something.
 A deceptively simple solution is to just add the CSS with the `[hidden]`
 attribute selector last.
 
-{{< highlight css "linenos=inline" >}}
+{{< highlight CSS "linenos=inline" >}}
 .something-flex {
   display: flex;
   …
@@ -84,7 +93,7 @@ though.
 Probably the most elegant solution is to wrap the element you want to hide in
 another element and add the `hidden` attribute to this wrapper element.
 
-{{< highlight html "linenos=inline" >}}
+{{< highlight HTML "linenos=inline" >}}
 <div class="wrapper" hidden>
   <div class="something-flex">
     …
