@@ -1,5 +1,6 @@
 ---
 title: "Brace expansion in Bash"
+slug: "brace-expansion-in-bash"
 date: 2018-07-30T18:30:14+02:00
 tags:
   - bash

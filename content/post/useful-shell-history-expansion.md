@@ -1,5 +1,6 @@
 ---
 title: "Useful shell history expansion"
+slug: "useful-shell-history-expansion"
 date: 2018-07-27T10:16:17+02:00
 draft: false
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "CSS and the Hidden Attribute"
+title: "CSS and the hidden attribute"
 slug: "css-and-the-hidden-attribute"
 date: 2018-08-14T08:40:13+02:00
 ---
