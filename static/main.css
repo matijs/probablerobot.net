@@ -91,8 +91,7 @@ pre {
 }
 
 p code {
-  background-color: hsla(46, 42%, 88%, .1);
-  border: 1px dotted;
+  background-color: hsla(46, 42%, 88%, .15);
   padding: .125em .25em;
 }
 
