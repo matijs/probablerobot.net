@@ -49,7 +49,7 @@ document.body.appendChild(p);
 This little code snippet depends on 'date-fns' which we will need to install
 using `npm install --save date-fns`.
 
-With the provided webpack configuation above, webpack can start to bundle our
+With the provided webpack configuration above, webpack can start to bundle our
 code. On line 1, it will find the `import` statement for 'date-fns' which it
 will follow. 'date-fns' ended up in `node_modules` when we installed it, which
 is where webpack will find it because it knows how to deal with `import`
