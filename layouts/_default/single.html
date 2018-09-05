@@ -7,12 +7,12 @@
 {{- end }}
 
 {{ define "main" -}}
- <article>
+ <article class="textblock">
   <h1>{{ .Title }}</h1>
   {{ .Content }}
   <footer>
    <p>Published on <time datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "2 January 2006" }}</time></p>
-   <nav>
+   <nav role="navigation">
     <dl>
      {{ with .PrevInSection }}
       <div>

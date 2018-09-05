@@ -77,11 +77,13 @@ p {
   }
 }
 
-body > header,
-main,
-article {
-  margin: 0 auto 4em;
+.textblock {
+  margin: 0 auto;
   max-width: 30em;
+}
+
+article {
+  margin-bottom: 5em;
 }
 
 pre {
@@ -122,28 +124,23 @@ a[href^="#fn"] {
   vertical-align: baseline;
 }
 
-.toc {
+.posts {
   list-style: none;
   padding: 0;
 }
 
-.toc-item {
+.posts li {
   padding: 0;
   position: relative;
 }
 
-.toc-item + .toc-item {
-  padding-top: 1em;
-}
-
-.toc-item + .toc-item::before {
-  background-color: #f1f1f1;
+.posts a::after {
   content: " ";
-  height: 1px;
-  left: 1em;
   position: absolute;
-  right: 1em;
   top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 article footer {
@@ -165,4 +162,20 @@ footer dd {
 
 footer dt::after {
   content: ":";
+}
+
+/* Blackfriday footnotes */
+.footnotes ol {
+  padding-left: 1.125em;
+}
+
+.footnotes hr {
+  border: none;
+  border-top: 1px solid hsla(46, 42%, 88%, 0.5);
+  margin: 1em 0;
+  width: 50%;
+}
+
+.footnotes li {
+  margin: 1em 0;
 }
