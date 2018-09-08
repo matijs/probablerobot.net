@@ -9,4 +9,4 @@ permalinks:
   post: /:year/:month/:title/
 
 # Blackfriday Markdown settings
-FootnoteReturnLinkContents: "↩"
+FootnoteReturnLinkContents: "↩︎"
