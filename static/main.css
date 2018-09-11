@@ -43,6 +43,14 @@ h1 {
   margin: 1em 0;
 }
 
+h1::after {
+  border-bottom: 1px solid hsla(46, 42%, 88%, 0.5);
+  content: " ";
+  display: block;
+  margin-top: 1em;
+  width: 50%;
+}
+
 h2 {
   font-size: 1.25em;
   line-height: 1.25;
