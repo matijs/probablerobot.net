@@ -100,7 +100,7 @@ pre {
   padding: .25em .5em;
 }
 
-p code {
+code {
   background-color: hsla(46, 42%, 88%, .15);
   padding: .125em .25em;
 }
