@@ -24,3 +24,6 @@ toggle the visibility of hidden files and folders:
 **<kbd>Shift</kbd>&nbsp;+&nbsp; <kbd>Command</kbd>&nbsp;+&nbsp;<kbd>.</kbd>**
 (full stop). Strangely this very useful shortcut is not mentioned on Apple's
 [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236#finder) page.
+
+**Update:** The hidden `.DS_Store` files that Finder creates in every folder it
+enters, never show up when asking it to show hidden files.
