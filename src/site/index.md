@@ -8,4 +8,5 @@ keywords:
   - JavaScript
   - Bash
   - Tips & Tricks
+changeFreq: weekly
 ---

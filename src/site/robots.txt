@@ -1,2 +1,3 @@
+Sitemap: https://probablerobot.net/sitemap.xml
 User-agent: *
 Disallow:
