@@ -1,6 +1,9 @@
 ---
-title: "Quickly toggle hidden files in macOS's Finder"
+title: Quickly toggle hidden files in macOS's Finder
 date: 2019-05-01T22:10:34+02:00
+description:
+  How to quickly (or permanently) toggle hidden files in macOS's Finder and
+  other macOS file dialogs
 keywords:
   - macOS
   - Finder

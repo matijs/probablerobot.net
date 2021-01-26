@@ -6,13 +6,14 @@
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/darcula.css" />
+    <meta name="description" content="{{ description }}" />
     <meta name="keywords" content="{{  keywords }}" />
   </head>
   <body>
     <main class="content">
-    {% block main %}
+    {%- block main %}
       {{ content | safe }}
-    {% endblock %}
+    {% endblock -%}
     </main>
   </body>
 </html>

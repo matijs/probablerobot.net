@@ -1,6 +1,9 @@
 ---
-title: 'CSS and the hidden attribute'
+title: CSS and the hidden attribute
 date: 2018-08-14T08:40:13+02:00
+description:
+  Some solutions on how to deal with HTML's 'hidden' attribute in CSS when using
+  the display property
 keywords:
   - CSS
   - hidden

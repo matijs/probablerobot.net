@@ -1,6 +1,7 @@
 ---
-title: 'Brace expansion in Bash'
+title: Brace expansion in Bash
 date: 2018-07-30T18:30:14+02:00
+description: Bash's brace expansion explained with some useful examples
 keywords:
   - bash
   - cli

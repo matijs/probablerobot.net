@@ -1,6 +1,9 @@
 ---
 title: 'About that first rule of ARIA'
 date: 2020-09-11T13:54:00+02:00
+description:
+  And elegant way to add a meaningful label to icon buttons using an aria-label
+  attribute.
 keywords:
   - html
   - ARIA

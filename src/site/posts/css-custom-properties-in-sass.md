@@ -1,6 +1,7 @@
 ---
-title: 'CSS Custom Properties in Sass'
+title: CSS Custom Properties in Sass
 date: 2019-01-31T17:51:27+01:00
+description: How to make CSS Custom properties and Sass play nice together
 keywords:
   - CSS
   - CCS custom properties

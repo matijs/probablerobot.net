@@ -1,6 +1,9 @@
 ---
-title: 'min() in CSS vs. min() in LibSass'
+title: min() in CSS vs. min() in LibSass
 date: 2020-05-18T14:48:45+02:00
+description:
+  An explanation on why CSS's min function and node-sass do not work together
+  and a possible solution
 keywords:
   - libsass
   - sass
