@@ -1,5 +1,5 @@
 ---
-title: Probable Robot
+title: Posts
 layout: layouts/list.njk
 description:
   An infrequent blog about interesting tidbits I've run into as a front-end
