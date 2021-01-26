@@ -1,6 +1,7 @@
 ---
 title: 'About that first rule of ARIA'
 date: 2020-09-11T13:54:00+02:00
+lastMod: 2021-01-26T20:42:00+01:00
 description:
   And elegant way to add a meaningful label to icon buttons using an aria-label
   attribute.
@@ -27,7 +28,8 @@ That means that this …
 <button type="submit">Submit</button>
 ```
 
-…is how it should be done.
+…is how it should be done (or could be done, the `type` attribute may be omitted
+which puts the button in the Submit Button state).
 
 Now have a look at the following implementation of an accessible icon only
 button (the actual `SVG` used for the icon was left out for brevity).
