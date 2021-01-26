@@ -9,6 +9,8 @@ keywords:
   - Finder
   - keyboard shortcut
   - hidden file
+  - mac toggle hidden file
+  - file dialog
 ---
 
 By default macOS's Finder will not show hidden files. This can be overridden

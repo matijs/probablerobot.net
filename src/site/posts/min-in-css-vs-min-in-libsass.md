@@ -6,6 +6,8 @@ description:
   and a possible solution
 keywords:
   - libsass
+  - node-sass
+  - nodesass
   - sass
   - CSS min function
   - Sass min function

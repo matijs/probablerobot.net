@@ -6,6 +6,7 @@ keywords:
   - bash
   - cli
   - brace expansion
+  - bash curly braces
 ---
 
 Brace expansion is a mechanism that is used to put together strings to use as

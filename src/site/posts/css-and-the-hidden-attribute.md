@@ -7,6 +7,7 @@ description:
 keywords:
   - CSS
   - hidden
+  - hidden attribute
   - CSS attributes
   - CSS hidden attribute
 ---
