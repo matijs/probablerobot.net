@@ -207,13 +207,14 @@ footer dt::after {
 }
 
 .color-scheme-control {
+  border: none;
   display: flex;
   font-size: 0.875rem;
-  justify-content: center;
+  justify-content: space-around;
   margin: 2rem auto;
   opacity: 0.25;
   transition: opacity 1s ease-in-out 2s;
-  max-width: 12rem;
+  max-width: 9rem;
 }
 
 .color-scheme-control:hover {
