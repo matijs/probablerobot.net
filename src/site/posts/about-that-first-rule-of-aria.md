@@ -1,5 +1,5 @@
 ---
-title: 'About that first rule of ARIA'
+title: About that first rule of ARIA
 date: 2020-09-11T13:54:00+02:00
 lastMod: 2021-01-26T20:42:00+01:00
 description:
