@@ -212,16 +212,31 @@ footer dt::after {
   border: none;
   display: flex;
   height: 1.5rem;
+  justify-content: space-between;
   padding: 0;
   position: absolute;
   top: 1rem;
   right: 1rem;
-  width: 3rem;
+  width: 4rem;
 }
 
 .color-scheme-control > label {
   height: 1.5rem;
+  position: relative;
   width: 1.5rem;
+}
+
+.color-scheme-control > label::before {
+  content: " ";
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+}
+
+.color-scheme-control > :focus + label::before {
+  border: 1px dotted hsl(var(--text-color));
 }
 
 .color-scheme-control > :checked + label {
