@@ -9,7 +9,7 @@
     <meta name="author" content="{{ author if author else settings.author }}" />
     <meta name="description" content="{{ description }}" />
     <meta name="keywords" content="{{ keywords }}" />
-    <link rel="alternate" type="application/feed+json" href="/feeds/posts.json" />
+    <link rel="alternate" type="application/feed+json" title="Posts JSON Feed" href="/feeds/posts.json" />
     <script>
       const matchesScheme = (prefersLight) => (prefersLight ? 'light' : 'dark');
       const mql = window.matchMedia('(prefers-color-scheme: light)');
