@@ -222,8 +222,16 @@ footer dt::after {
 
 .color-scheme-control > label {
   height: 1.5rem;
+  opacity: 0.5;
   position: relative;
+  transition: opacity 250ms ease-in-out;
   width: 1.5rem;
+}
+
+.color-scheme-control > :checked + label,
+.color-scheme-control > :focus + label,
+.color-scheme-control > label:hover {
+  opacity: 1;
 }
 
 .color-scheme-control > label::before {
