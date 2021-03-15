@@ -2,9 +2,8 @@
 title: Some recent NODE_ENV and devDependencies woes
 date: 2021-03-14T20:10:05+01:00
 description:
-  How a Dependabot pull request, a broken build, a stray NODE_ENV environment
-  variable and devDependencies that should have been dependecies taught me
-  things about npm.
+  How a Dependabot PR, a broken build, a stray NODE_ENV environment variable and
+  devDependencies that should have been dependecies taught me things about npm.
 keywords:
   - NODE_ENV
   - dependencies
