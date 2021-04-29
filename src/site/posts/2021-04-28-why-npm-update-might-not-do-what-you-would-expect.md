@@ -75,7 +75,7 @@ this reason.
 So how do you update Eleventy from `0.11.1` to `0.12.1`? Explicitly like so:
 
 ```shell
-$ npm install @11ty/elevent@latest
+$ npm install @11ty/eleventy@latest
 ```
 
 Or
