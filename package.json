@@ -1,4 +1,5 @@
 {
+  "name": "probablerobot-net",
   "private": true,
   "scripts": {
     "prestart": "rm -rf public",
@@ -6,7 +7,7 @@
     "start:eleventy": "eleventy --serve",
     "start:postcss": "postcss src/site/_includes/css --dir public/css --watch",
     "prebuild": "rm -rf public",
-    "build": "npm run build:eleventy && npm run build:postcss",
+    "build": "npm-run-all --parallel build:*",
     "build:eleventy": "eleventy",
     "build:postcss": "postcss src/site/_includes/css --dir public/css",
     "prettier:check": "prettier --check ."
