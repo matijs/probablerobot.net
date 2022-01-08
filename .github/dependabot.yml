@@ -6,17 +6,17 @@ updates:
     schedule:
       interval: "daily"
       time: "07:00"
-      timezone: "Europe/Amsterdam"
-    commit-message:
-      prefix: "npm"
-      include: "scope"
+      timezone: "Etc/UTC"
     open-pull-requests-limit: 10
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
       time: "07:00"
-      timezone: "Europe/Amsterdam"
-    commit-message:
-      prefix: "npm"
-      include: "scope"
+      timezone: "Etc/UTC"
+  - package-ecosystem: "docker"
+    directory: "/.devcontainer/"
+    schedule:
+      interval: "weekly"
+      time: "07:00"
+      timezone: "Etc/UTC"
