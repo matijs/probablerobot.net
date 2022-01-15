@@ -201,7 +201,7 @@ And finally `.bash_history` just to make sure that is never accidentally added.
 [^2]: Or your [Oh My Zsh][3] prompt
 [^3]: Git's default: `~/.config/git/ignore`
 
-[1]: https://github.com/matijs/dotfiles
+[1]: https://github.com/matijs/dotfiles-archived
 [2]:
-  https://github.com/matijs/live-dotfiles/blob/fec5ee631918f9fd2dde56a7045613f21a7a1f0d/.bash/prompt#L3
+  https://github.com/matijs/dotfiles/blob/fec5ee631918f9fd2dde56a7045613f21a7a1f0d/.bash/prompt#L3
 [3]: https://github.com/ohmyzsh/ohmyzsh
