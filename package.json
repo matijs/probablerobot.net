@@ -15,7 +15,7 @@
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
-    "cssnano": "^5.0.16",
+    "cssnano": "^5.0.17",
     "luxon": "^2.3.0",
     "markdown-it": "^12.3.2",
     "markdown-it-footnote": "^3.0.3",
