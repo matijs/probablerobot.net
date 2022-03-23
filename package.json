@@ -24,7 +24,7 @@
     "postcss-cli": "^9.1.0"
   },
   "devDependencies": {
-    "@prettier/plugin-xml": "^1.2.0",
+    "@prettier/plugin-xml": "^2.0.1",
     "prettier": "^2.6.0"
   }
 }
