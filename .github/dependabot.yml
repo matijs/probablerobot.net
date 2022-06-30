@@ -4,19 +4,22 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
-      time: "07:00"
+      interval: "weekly"
+      day: "friday"
+      time: "00:00"
       timezone: "Etc/UTC"
     open-pull-requests-limit: 10
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
-      time: "07:00"
+      interval: "weekly"
+      day: "friday"
+      time: "00:00"
       timezone: "Etc/UTC"
   - package-ecosystem: "docker"
     directory: "/.devcontainer/"
     schedule:
       interval: "weekly"
-      time: "07:00"
+      day: "friday"
+      time: "00:00"
       timezone: "Etc/UTC"
