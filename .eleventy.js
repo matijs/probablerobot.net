@@ -13,7 +13,7 @@ module.exports = (config) => {
     markdownIt({
       html: true,
       linkify: false,
-    }).use(markdownItFootnote)
+    }).use(markdownItFootnote),
   );
   config.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'), {
     preAttributes: { tabindex: 0 },
