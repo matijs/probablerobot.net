@@ -10,7 +10,8 @@
     "build": "npm-run-all --parallel build:*",
     "build:eleventy": "eleventy",
     "build:postcss": "postcss src/site/_includes/css --dir public/css",
-    "prettier:check": "prettier --check ."
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write ."
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
@@ -25,6 +26,6 @@
   },
   "devDependencies": {
     "@prettier/plugin-xml": "^2.2.0",
-    "prettier": "^2.8.8"
+    "prettier": "^3.0.0"
   }
 }
