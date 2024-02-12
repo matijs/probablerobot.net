@@ -2,16 +2,16 @@
   "name": "Alpine",
   "build": {
     "dockerfile": "Dockerfile",
-    "args": { "WORKSPACE": "${containerWorkspaceFolder}" },
+    "args": { "WORKSPACE": "${containerWorkspaceFolder}" }
   },
   "extensions": [
     "esbenp.prettier-vscode",
     "editorconfig.editorconfig",
-    "dbaeumer.vscode-eslint",
+    "dbaeumer.vscode-eslint"
   ],
   "runArgs": ["--userns=keep-id", "--network=host"],
   "workspaceMount": "source=${localWorkspaceFolder},target=${containerWorkspaceFolder},type=bind,Z",
   "workspaceFolder": "/workspace",
   "forwardPorts": [3001, 8080],
-  "shutdownAction": "stopContainer",
+  "shutdownAction": "stopContainer"
 }
