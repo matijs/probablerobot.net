@@ -8,13 +8,17 @@
     "start:postcss": "postcss src/site/_includes/css --dir public/css --watch",
     "prebuild": "rm -rf public",
     "build": "npm-run-all --parallel build:*",
-    "build:eleventy": "eleventy",
+    "build:eleventy": "eleventy --config=.eleventy.cjs",
     "build:postcss": "postcss src/site/_includes/css --dir public/css",
     "prettier:check": "prettier --check .",
-    "prettier:fix": "prettier --write ."
+    "prettier:fix": "prettier --write .",
+    "lint": "eslint ."
   },
   "devDependencies": {
+    "@eslint/js": "9.0.0",
     "@prettier/plugin-xml": "3.4.1",
+    "eslint": "9.0.0",
+    "globals": "15.0.0",
     "prettier": "3.2.5"
   },
   "dependencies": {

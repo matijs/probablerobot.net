@@ -5,7 +5,7 @@ const {
   toRFC2822,
   toISO,
   toISODate,
-} = require('./src/utils/date.js');
+} = require('./src/utils/date.cjs');
 
 module.exports = (config) => {
   config.setLibrary(
