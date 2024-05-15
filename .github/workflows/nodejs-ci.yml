@@ -6,6 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.1.5
+        with:
+          token: github_pat_11AAthisisafakegithubpatasdfasd9f79a7dfa9s7f9asdf97asdf79as9df7asASDFA9asdf8asdfDD
       - uses: pnpm/action-setup@v4.0.0
       - uses: actions/setup-node@v4.0.2
         with:
