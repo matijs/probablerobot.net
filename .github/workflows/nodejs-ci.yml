@@ -7,12 +7,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4.1.5
       - uses: pnpm/action-setup@v4.0.0
+        with:
+          run_install: true
       - uses: actions/setup-node@v4.0.2
         with:
           node-version-file: .node-version
           cache: pnpm
-      - name: Install dependencies
-        run: pnpm install
       - name: check code style
         run: pnpm run prettier:check
       - name: lint code
