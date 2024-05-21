@@ -46,8 +46,8 @@ importers:
         specifier: 9.3.0
         version: 9.3.0
       globals:
-        specifier: 15.2.0
-        version: 15.2.0
+        specifier: 15.3.0
+        version: 15.3.0
       prettier:
         specifier: 3.2.5
         version: 3.2.5
@@ -727,8 +727,8 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globals@15.2.0:
-    resolution: {integrity: sha512-FQ5YwCHZM3nCmtb5FzEWwdUc9K5d3V/w9mzcz8iGD1gC/aOTHc6PouYu0kkKipNJqHAT7m51sqzQjEjIP+cK0A==}
+  globals@15.3.0:
+    resolution: {integrity: sha512-cCdyVjIUVTtX8ZsPkq1oCsOsLmGIswqnjZYMJJTGaNApj1yHtLSymKhwH51ttirREn75z3p4k051clwg7rvNKA==}
     engines: {node: '>=18'}
 
   globalthis@1.0.4:
@@ -2742,7 +2742,7 @@ snapshots:
 
   globals@14.0.0: {}
 
-  globals@15.2.0: {}
+  globals@15.3.0: {}
 
   globalthis@1.0.4:
     dependencies:
@@ -3153,8 +3153,9 @@ snapshots:
     dependencies:
       a-sync-waterfall: 1.0.1
       asap: 2.0.6
-      chokidar: 3.6.0
       commander: 5.1.0
+    optionalDependencies:
+      chokidar: 3.6.0
 
   object-assign@4.1.1: {}
 
@@ -3298,8 +3299,9 @@ snapshots:
   postcss-load-config@5.0.3(postcss@8.4.38):
     dependencies:
       lilconfig: 3.1.1
-      postcss: 8.4.38
       yaml: 2.4.2
+    optionalDependencies:
+      postcss: 8.4.38
 
   postcss-merge-longhand@7.0.0(postcss@8.4.38):
     dependencies:
