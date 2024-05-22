@@ -2,12 +2,11 @@
   "name": "probablerobot-net",
   "private": true,
   "scripts": {
-    "prestart": "rm -rf public",
-    "start": "npm-run-all --parallel start:*",
+    "clean": "rimraf public",
+    "start": "npm-run-all clean --parallel start:*",
     "start:eleventy": "eleventy --serve",
     "start:postcss": "postcss src/site/_includes/css --dir public/css --watch",
-    "prebuild": "rm -rf public",
-    "build": "npm-run-all --parallel build:*",
+    "build": "npm-run-all clean --parallel build:*",
     "build:eleventy": "eleventy",
     "build:postcss": "postcss src/site/_includes/css --dir public/css",
     "prettier:check": "prettier --check .",
@@ -31,7 +30,8 @@
     "markdown-it-footnote": "4.0.0",
     "npm-run-all": "4.1.5",
     "postcss": "8.4.38",
-    "postcss-cli": "11.0.0"
+    "postcss-cli": "11.0.0",
+    "rimraf": "5.0.7"
   },
   "packageManager": "pnpm@9.1.1+sha256.9551e803dcb7a1839fdf5416153a844060c7bce013218ce823410532504ac10b"
 }
