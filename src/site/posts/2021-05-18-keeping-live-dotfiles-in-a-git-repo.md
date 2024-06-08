@@ -198,7 +198,9 @@ share across machines.
 And finally `.bash_history` just to make sure that is never accidentally added.
 
 [^1]: I use Git's own [`git-prompt.sh`][2]
+
 [^2]: Or your [Oh My Zsh][3] prompt
+
 [^3]: Git's default: `~/.config/git/ignore`
 
 [1]: https://github.com/matijs/dotfiles-archived

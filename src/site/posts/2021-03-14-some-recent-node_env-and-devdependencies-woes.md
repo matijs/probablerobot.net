@@ -6,12 +6,19 @@ description:
   devDependencies that should have been dependecies taught me things about npm.
 keywords:
   - NODE_ENV
+
   - dependencies
+
   - devDependencies
+
   - npm
+
   - Dependabot
+
   - 11ty
+
   - eleventy
+
   - SSG
 ---
 
@@ -83,6 +90,7 @@ that only existed on the build server and a few dependencies being under
 `devDependencies` in `package.json`.
 
 [^1]: Instead of, you know, manually editing `package.json` like an animal.
+
 [^2]: Actually not wrong at all but exactly according to all the docs.
 
 [1]:
