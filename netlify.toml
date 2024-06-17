@@ -1,9 +1,6 @@
-[build.environment]
-  PNPM_FLAGS="--version"
-  NPM_FLAGS="--version"
 [build]
   publish = "public/"
-  command = "corepack prepare pnpm@9 --activate && pnpm install && pnpm run build"
+  command = "pnpm run build"
 
 [[headers]]
   for = "/*"
