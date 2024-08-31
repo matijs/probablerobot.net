@@ -18,10 +18,10 @@
   "devDependencies": {
     "@eslint/js": "9.9.1",
     "@prettier/plugin-xml": "3.4.1",
-    "@types/node": "22.5.0",
+    "@types/node": "22.5.1",
     "eslint": "9.9.1",
     "globals": "15.9.0",
-    "knip": "5.27.3",
+    "knip": "5.27.5",
     "prettier": "3.3.3",
     "typescript": "5.5.4"
   },
