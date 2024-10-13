@@ -1,13 +1,14 @@
-const markdownIt = require('markdown-it');
-const markdownItFootnote = require('markdown-it-footnote');
-const {
+import markdownIt from 'markdown-it';
+import markdownItFootnote from 'markdown-it-footnote';
+import eleventyPluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+import {
   humanReadableDate,
   toRFC2822,
   toISO,
   toISODate,
-} = require('./src/utils/date.cjs');
+} from './src/utils/date.js';
 
-module.exports = (config) => {
+export default (config) => {
   config.setLibrary(
     'md',
     markdownIt({
@@ -15,7 +16,7 @@ module.exports = (config) => {
       linkify: false,
     }).use(markdownItFootnote),
   );
-  config.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'), {
+  config.addPlugin(eleventyPluginSyntaxHighlight, {
     preAttributes: { tabindex: 0 },
   });
   config.addPassthroughCopy('src/site/robots.txt');

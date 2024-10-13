@@ -1,13 +1,13 @@
-const { DateTime } = require('luxon');
+import { DateTime } from 'luxon';
 
-module.exports.humanReadableDate = (value) =>
+export const humanReadableDate = (value) =>
   DateTime.fromJSDate(value, { zone: 'utc' }).toFormat('d LLLL y');
 
-module.exports.toISODate = (value) =>
+export const toISODate = (value) =>
   DateTime.fromJSDate(value, { zone: 'utc' }).toISODate();
 
-module.exports.toISO = (value) =>
+export const toISO = (value) =>
   DateTime.fromJSDate(value, { zone: 'utc' }).toISO();
 
-module.exports.toRFC2822 = (value) =>
+export const toRFC2822 = (value) =>
   DateTime.fromJSDate(value, { zone: 'utc' }).toRFC2822();
