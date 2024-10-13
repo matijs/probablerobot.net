@@ -4,7 +4,6 @@ import prettierPluginXML from '@prettier/plugin-xml';
  * @type {import("prettier").Config}
  **/
 export default {
-  singleQuote: true,
   overrides: [
     {
       files: ['*.css', '*.scss', '*.yml'],
@@ -25,4 +24,5 @@ export default {
       },
     },
   ],
+  singleQuote: true,
 };

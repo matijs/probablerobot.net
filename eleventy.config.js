@@ -1,11 +1,12 @@
+import eleventyPluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import markdownIt from 'markdown-it';
 import markdownItFootnote from 'markdown-it-footnote';
-import eleventyPluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+
 import {
   humanReadableDate,
-  toRFC2822,
   toISO,
   toISODate,
+  toRFC2822,
 } from './src/utils/date.js';
 
 export default (config) => {
