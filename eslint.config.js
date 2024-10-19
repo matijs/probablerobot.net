@@ -1,25 +1,25 @@
 import js from '@eslint/js';
+import json from '@eslint/json';
 import perfectionist from 'eslint-plugin-perfectionist';
 import globals from 'globals';
 
 export default [
   {
-    ignores: ['package.json'],
-    name: 'global-ignores',
+    ignores: ['**/public/'],
   },
   {
     languageOptions: {
       globals: { ...globals.browser, ...globals.node },
     },
-    name: 'global-language-options',
   },
   {
     files: ['**/*.js'],
-    name: 'eslint/config/recommended',
     ...js.configs.recommended,
   },
   {
-    name: 'eslint-plugin-perfectionist/configs/recommended-natural',
-    ...perfectionist.configs['recommended-natural'],
+    files: ['**/*.json'],
+    language: 'json/json',
+    ...json.configs.recommended,
   },
+  perfectionist.configs['recommended-natural'],
 ];
