@@ -15,11 +15,11 @@ export default [
   {
     files: ['**/*.js'],
     ...js.configs.recommended,
+    ...perfectionist.configs['recommended-natural'],
   },
   {
     files: ['**/*.json'],
     language: 'json/json',
     ...json.configs.recommended,
   },
-  perfectionist.configs['recommended-natural'],
 ];
