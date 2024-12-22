@@ -13,8 +13,7 @@ jobs:
           node-version-file: .node-version
           cache: pnpm
       - name: Temp
-        run: |
-          printf "${{ join(steps.node.outputs.*, '\n') }}"
+        run: echo "${{ toJSON(steps.captureStatus.outputs) }}"
       - name: Install dependencies
         run: pnpm install
       - name: check code style
