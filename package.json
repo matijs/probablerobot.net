@@ -21,11 +21,11 @@
     "@eslint/js": "9.19.0",
     "@eslint/json": "0.10.0",
     "@prettier/plugin-xml": "3.4.1",
-    "@types/node": "22.10.10",
+    "@types/node": "22.13.0",
     "eslint": "9.19.0",
     "eslint-plugin-perfectionist": "4.7.0",
     "globals": "15.14.0",
-    "knip": "5.43.3",
+    "knip": "5.43.6",
     "prettier": "3.4.2",
     "typescript": "5.7.3"
   },
