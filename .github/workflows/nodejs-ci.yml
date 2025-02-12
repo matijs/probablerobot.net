@@ -11,11 +11,7 @@ jobs:
         with:
           node-version-file: .node-version
           cache: pnpm
-      - name: Install dependencies
-        run: pnpm install
-      - name: check code style
-        run: pnpm run prettier:check
-      - name: lint code
-        run: pnpm run lint
-      - name: check for unused code
-        run: pnpm run knip
+      - run: pnpm install
+      - run: pnpm run prettier:check
+      - run: pnpm run lint
+      - run: pnpm run knip
