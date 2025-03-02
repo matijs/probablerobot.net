@@ -6,7 +6,7 @@ import prettierPluginXML from '@prettier/plugin-xml';
 export default {
   overrides: [
     {
-      files: ['*.css', '*.scss', '*.yml'],
+      files: ['*.css', '*.scss'],
       options: {
         singleQuote: false,
       },
