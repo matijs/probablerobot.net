@@ -25,7 +25,7 @@
     "eslint": "9.23.0",
     "eslint-plugin-perfectionist": "4.10.1",
     "globals": "16.0.0",
-    "knip": "5.46.2",
+    "knip": "5.46.3",
     "prettier": "3.5.3",
     "typescript": "5.8.2"
   },
