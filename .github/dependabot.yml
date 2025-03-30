@@ -26,10 +26,3 @@ updates:
       day: 'saturday'
       time: '00:00'
       timezone: 'Etc/UTC'
-  - package-ecosystem: 'docker'
-    directory: '/.devcontainer/'
-    schedule:
-      interval: 'weekly'
-      day: 'saturday'
-      time: '00:00'
-      timezone: 'Etc/UTC'
