@@ -18,8 +18,8 @@ importers:
         specifier: 7.0.6
         version: 7.0.6(postcss@8.5.3)
       luxon:
-        specifier: 3.6.0
-        version: 3.6.0
+        specifier: 3.6.1
+        version: 3.6.1
       markdown-it:
         specifier: 14.1.0
         version: 14.1.0
@@ -61,8 +61,8 @@ importers:
         specifier: 16.0.0
         version: 16.0.0
       knip:
-        specifier: 5.46.3
-        version: 5.46.3(@types/node@22.13.14)(typescript@5.8.2)
+        specifier: 5.46.4
+        version: 5.46.4(@types/node@22.13.14)(typescript@5.8.2)
       prettier:
         specifier: 3.5.3
         version: 3.5.3
@@ -1148,8 +1148,8 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
 
-  knip@5.46.3:
-    resolution: {integrity: sha512-DpxZYvFDh0POjgnfXie39zd4SCxmw3iQTSLPgnf1Umq+k+sCHjcv553UmI3hfo39qlVIq2c8XSsjS3IeZfdAoA==}
+  knip@5.46.4:
+    resolution: {integrity: sha512-iU2VGdXOPOj6Y8jEeixYMjlf2MCLZNjB63u2pfuP14gprRFjxgF+8wZiCgrjvogWt9H2WT+ytLYouXoEFAcm5g==}
     engines: {node: '>=18.18.0'}
     hasBin: true
     peerDependencies:
@@ -1203,8 +1203,8 @@ packages:
     resolution: {integrity: sha512-Qv32eSV1RSCfhY3fpPE2GNZ8jgM9X7rdAfemLWqTUxwiyIC4jJ6Sy0fZ8H+oLWevO6i4/bizg7c8d8i6bxrzbA==}
     engines: {node: 20 || >=22}
 
-  luxon@3.6.0:
-    resolution: {integrity: sha512-WE7p0p7W1xji9qxkLYsvcIxZyfP48GuFrWIBQZIsbjCyf65dG1rv4n83HcOyEyhvzxJCrUoObCRNFgRNIQ5KNA==}
+  luxon@3.6.1:
+    resolution: {integrity: sha512-tJLxrKJhO2ukZ5z0gyjY1zPh3Rh88Ej9P7jNrZiHMUXHae1yvI2imgOZtL1TO8TW6biMMKfTtAOoEJANgtWBMQ==}
     engines: {node: '>=12'}
 
   markdown-it-footnote@4.0.0:
@@ -2176,7 +2176,7 @@ snapshots:
       js-yaml: 4.1.0
       kleur: 4.1.5
       liquidjs: 10.17.0
-      luxon: 3.6.0
+      luxon: 3.6.1
       markdown-it: 14.1.0
       micromatch: 4.0.8
       minimist: 1.2.8
@@ -3355,7 +3355,7 @@ snapshots:
 
   kleur@4.1.5: {}
 
-  knip@5.46.3(@types/node@22.13.14)(typescript@5.8.2):
+  knip@5.46.4(@types/node@22.13.14)(typescript@5.8.2):
     dependencies:
       '@nodelib/fs.walk': 3.0.1
       '@snyk/github-codeowners': 1.1.0
@@ -3416,7 +3416,7 @@ snapshots:
 
   lru-cache@11.0.0: {}
 
-  luxon@3.6.0: {}
+  luxon@3.6.1: {}
 
   markdown-it-footnote@4.0.0: {}
 
