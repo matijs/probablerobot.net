@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: matijs/no-fixups-action@183d9d2310ed1382144a873e83d03c0d20be55f1 # v1.1.2
 
-  check:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
