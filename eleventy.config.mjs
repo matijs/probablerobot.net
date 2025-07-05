@@ -7,7 +7,7 @@ import {
   toISO,
   toISODate,
   toRFC2822,
-} from './src/utils/date.js';
+} from './src/utils/date.mjs';
 
 export default (config) => {
   config.setLibrary(
