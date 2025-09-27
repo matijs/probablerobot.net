@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Enable Renovate for this repository",
+  "enabledManagers": ["npm"],
+  "packageRules": [
+    {
+      "description": "Only update package.json#packageManager",
+      "matchFileNames": ["package.json"],
+      "matchDepTypes": ["packageManager"],
+      "matchManagers": ["npm"],
+      "enabled": true
+    }
+  ]
+}
