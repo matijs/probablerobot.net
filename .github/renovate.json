@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Enable Renovate for this repository",
+  "dependencyDashboard": false,
+  "enabledManagers": ["npm"],
+  "packageRules": [
+    {
+      "description": "Disable npm manager",
+      "matchManagers": ["npm"],
+      "enabled": false
+    },
+    {
+      "description": "Re-enable npm manager but only for packageManager depType",
+      "matchManagers": ["npm"],
+      "matchFileNames": ["package.json"],
+      "matchDepTypes": ["packageManager"],
+      "enabled": true
+    }
+  ]
+}
