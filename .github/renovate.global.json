@@ -1,0 +1,7 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "This is the configuration used by `configurationFile` in .github/workflows/renovate.yml",
+  "platform": "github",
+  "platformCommit": true,
+  "enabledManagers": ["npm"]
+}
