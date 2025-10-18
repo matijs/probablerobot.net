@@ -17,14 +17,14 @@
   },
   "packageManager": "pnpm@10.18.3+sha512.bbd16e6d7286fd7e01f6b3c0b3c932cda2965c06a908328f74663f10a9aea51f1129eea615134bf992831b009eabe167ecb7008b597f40ff9bc75946aadfb08d",
   "devDependencies": {
-    "@eslint/js": "9.37.0",
+    "@eslint/js": "9.38.0",
     "@eslint/json": "0.13.2",
     "@prettier/plugin-xml": "3.4.2",
-    "@types/node": "22.18.10",
-    "eslint": "9.37.0",
+    "@types/node": "22.18.11",
+    "eslint": "9.38.0",
     "eslint-plugin-perfectionist": "4.15.1",
     "globals": "16.4.0",
-    "knip": "5.64.3",
+    "knip": "5.66.0",
     "prettier": "3.6.2",
     "typescript": "5.9.3"
   },
