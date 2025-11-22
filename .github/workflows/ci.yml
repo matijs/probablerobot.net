@@ -1,8 +1,5 @@
 name: CI
 
-permissions:
-  contents: read
-
 on:
   pull_request:
 
@@ -10,11 +7,23 @@ concurrency:
   group: ${{ github.ref }}
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
+permissions: {}
+
 jobs:
   no-fixups:
     runs-on: ubuntu-latest
     steps:
       - uses: matijs/no-fixups-action@8dfcf79304e29c3aa37e327cfc1d3685dca3c6c0 # v1.1.4
+
+  zizmor:
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          persist-credentials: false
+      - uses: zizmorcore/zizmor-action@e673c3917a1aef3c65c972347ed84ccd013ecda4 # v0.2.0
 
   lint:
     runs-on: ubuntu-latest
