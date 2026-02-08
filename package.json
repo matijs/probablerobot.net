@@ -22,7 +22,6 @@
     "@prettier/plugin-xml": "3.4.2",
     "@types/node": "24.10.9",
     "eslint": "9.39.2",
-    "eslint-plugin-perfectionist": "5.4.0",
     "globals": "17.3.0",
     "knip": "5.82.1",
     "prettier": "3.8.1",
