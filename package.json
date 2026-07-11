@@ -18,14 +18,14 @@
   "packageManager": "pnpm@11.10.0+sha512.0b7f8b98060031904c017e3a41eb187a16d40eeb829b95c4f8cb03681761fc4ab53dd219115b9b447f4dce1a05a214764461e7d3703392a9f32f9511ce8c86c8",
   "devDependencies": {
     "@eslint/js": "10.0.1",
-    "@eslint/json": "2.0.0",
+    "@eslint/json": "2.0.1",
     "@prettier/plugin-xml": "3.4.2",
     "@types/node": "24.13.2",
     "eslint": "10.6.0",
     "globals": "17.7.0",
-    "knip": "6.21.0",
+    "knip": "6.24.0",
     "npm-run-all2": "9.0.2",
-    "prettier": "3.8.5",
+    "prettier": "3.9.4",
     "typescript": "6.0.3"
   },
   "dependencies": {
@@ -33,9 +33,9 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "5.0.2",
     "cssnano": "8.0.2",
     "luxon": "3.7.2",
-    "markdown-it": "14.2.0",
+    "markdown-it": "14.3.0",
     "markdown-it-footnote": "4.0.0",
-    "postcss": "8.5.15",
+    "postcss": "8.5.16",
     "postcss-cli": "11.0.1",
     "rimraf": "6.1.3"
   }
