@@ -31,7 +31,7 @@ export default (config) => {
   return {
     dir: {
       input: 'src/site',
-      output: 'public',
+      output: 'dist',
     },
   };
 };
