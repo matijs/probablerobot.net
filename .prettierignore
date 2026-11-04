@@ -1,3 +1,4 @@
 *.njk
+.astro/
 pnpm-lock.yaml
 dist/
