@@ -2,6 +2,8 @@
   "name": "probablerobot-net",
   "private": true,
   "scripts": {
+    "astro:dev": "astro dev",
+    "astro:build": "astro build",
     "clean": "rimraf dist",
     "start": "npm-run-all clean --parallel start:*",
     "start:eleventy": "eleventy --serve",
