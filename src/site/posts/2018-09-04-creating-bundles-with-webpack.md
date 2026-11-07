@@ -1,5 +1,6 @@
 ---
 title: Creating bundles with webpack
+slug: creating-bundles-with-webpack
 date: 2018-09-04T08:38:26+02:00
 description: Webpack bundling in a nutshell
 keywords:

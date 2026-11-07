@@ -1,5 +1,6 @@
 ---
 title: Using JavaScript modules embedded in HTML
+slug: using-javascript-modules-embedded-in-html
 date: 2021-04-27T21:36:00+01:00
 description:
   A nifty trick using JavaScript modules embedded in HTML using a <script> tag

@@ -1,5 +1,6 @@
 ---
 title: Using Pandoc style footnotes in Eleventy
+slug: using-pandoc-style-footnotes-in-eleventy
 date: 2021-02-28T16:24:00+01:00
 description:
   A brief explanation how to enable Pandoc style footnotes in Markdown on a site

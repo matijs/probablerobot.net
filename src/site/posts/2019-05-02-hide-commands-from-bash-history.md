@@ -1,5 +1,6 @@
 ---
 title: Hide commands from Bash history
+slug: hide-commands-from-bash-history
 date: 2019-05-02T10:41:38+02:00
 description: How to keep some commands out of Bash's history file
 keywords:

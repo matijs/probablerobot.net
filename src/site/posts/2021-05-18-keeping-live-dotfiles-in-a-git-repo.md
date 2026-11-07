@@ -1,5 +1,6 @@
 ---
 title: Keeping ‘live‘ dotfiles in a Git repo
+slug: keeping-live-dotfiles-in-a-git-repo
 date: 2021-05-18T12:00:00+01:00
 description:
   How to keep a ‘live’ version of dotfiles in a git repository without having to

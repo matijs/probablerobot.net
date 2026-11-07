@@ -1,5 +1,6 @@
 ---
 title: Why npm-update might not do what you would expect
+slug: why-npm-update-might-not-do-what-you-would-expect
 date: 2021-04-28T19:25:00+01:00
 lastMod: 2021-04-29T09:45:00+01:00
 description:

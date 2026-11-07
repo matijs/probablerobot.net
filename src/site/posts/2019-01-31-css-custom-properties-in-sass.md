@@ -1,5 +1,6 @@
 ---
 title: CSS Custom Properties in Sass
+slug: css-custom-properties-in-sass
 date: 2019-01-31T17:51:27+01:00
 lastMod: 2021-02-08T14:36:14+01:00
 description: How to make CSS Custom properties and Sass play nice together

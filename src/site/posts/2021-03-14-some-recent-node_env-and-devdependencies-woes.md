@@ -1,5 +1,6 @@
 ---
 title: Some recent NODE_ENV and devDependencies woes
+slug: some-recent-node_env-and-devdependencies-woes
 date: 2021-03-14T20:10:05+01:00
 description:
   How a Dependabot PR, a broken build, a stray NODE_ENV environment variable and
