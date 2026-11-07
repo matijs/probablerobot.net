@@ -23,6 +23,12 @@ export default (config) => {
   config.addPassthroughCopy('src/site/robots.txt');
   config.addWatchTarget('src/utils');
 
+  // Astro only locations, ignore:
+  config.ignores.add('src/components/**');
+  config.ignores.add('src/layouts/**');
+  config.ignores.add('src/pages/**');
+  config.ignores.add('src/styles/**');
+
   config.addNunjucksFilter('humanReadableDate', humanReadableDate);
   config.addNunjucksFilter('toISODate', toISODate);
   config.addNunjucksFilter('toISO', toISO);
