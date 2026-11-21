@@ -17,7 +17,7 @@
     "lint:fix": "eslint --fix",
     "knip": "knip"
   },
-  "packageManager": "pnpm@11.28.10+sha512.672216f06e15c109b85471d49d3fbed17e6f03ead258df08c2bf5b4a5c33321ebfbf59476bce81325efada16ace0ac78548fd0bfcd7a51369e939182a3dd50e4",
+  "packageManager": "pnpm@11.28.12+sha512.94833387e35d503e8ad1010417cdeb82c120e7e69bafdf0a9db0690515beae7159274571e692b96abc2a085d3566fec54381afd978f65f64a85362dfd7e108f7",
   "devDependencies": {
     "@eslint/js": "10.0.1",
     "@eslint/json": "2.1.1",
